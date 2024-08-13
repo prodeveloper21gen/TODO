@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="bon">
+        <h1 class="title"><span style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 85px; color: rgb(150, 57, 236);">T</span>o<span style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 85px; color: rgb(156, 76, 231);">D</span>o✔️ 
+        <button class="btnLight">☀️</button><button class="btnNight">🌙</button>
+        </h1>
+        <div class="blok">
+            <div class="zag">
+                <h1>🟣 Work</h1>
+                <h1>🔵 Study</h1>
+                <h1>🔴 Entertainment</h1>
+                <h1>🟢 Family</h1>
+                <h2><input type="checkbox" name="" id="" style="width: 25px; height: 25px; position: relative; top: 3px; right: 10px;">Hide Done Tasks</h2>
+            </div>
+            <div class="box">
+                <button class="btnAdd">+</button>
+            </div>
+        </div>
+    </div>
+    <div id="taskModal" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <h2 id="modalTitle">Add Task</h2>
+            <input type="hidden" id="taskId">
+            <input type="text" id="taskTitle" class="taskTitle" placeholder="Title">
+            <input id="taskDescription" class="taskTitle" type="text" placeholder="More INFO"></input>
+            <button id="saveTask">Save</button>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
